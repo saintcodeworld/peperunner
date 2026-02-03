@@ -55,7 +55,7 @@ const Dashboard: React.FC<DashboardProps> = ({
             <div className="bg-emerald-950/40 backdrop-blur-xl border border-emerald-500/20 rounded-full px-4 py-2 flex items-center gap-4">
               {/* X Logo */}
               <div
-                onClick={() => window.open('https://x.com/i/communities/2018041695649034612', '_blank')}
+                onClick={() => window.open('https://x.com/i/communities/2018532806511493167/', '_blank')}
                 className="flex items-center gap-2 hover:bg-emerald-900/30 rounded-full px-3 py-1.5 transition-all duration-300 cursor-pointer"
               >
                 <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-emerald-400">

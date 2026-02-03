@@ -33,7 +33,7 @@ const FloatingText: React.FC = () => {
         // Initialize floating items (text and PEPE frogs)
         for (let i = 0; i < 20; i++) {
             floatingItems.push({
-                text: i % 3 === 0 ? '🐸' : '7zqWzEDAU2GHkWmZ9gXbwCQBHt3dLBPo97n7vmDNpump',
+                text: i % 3 === 0 ? '🐸' : '3gVTyxKHzeep1uszUp3xj6bY84V4ZcTdbtGioh9fpump',
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
                 size: Math.random() * 25 + 20,
@@ -77,7 +77,7 @@ const FloatingText: React.FC = () => {
                     ctx.textBaseline = 'middle';
 
                     // Show truncated version of wallet address with better visibility
-                    const shortText = '7zqWzED...pump';
+                    const shortText = '3gVTyxK...pump';
                     ctx.fillText(shortText, 0, 0);
                 }
 
@@ -293,7 +293,7 @@ const SignupPage: React.FC<SignupPageProps> = ({ onWalletGenerated }) => {
                                 ) : (
                                     <>
                                         <span className="mr-2">🐸</span>
-                                        Create New Wallet
+                                        SIGN UP
                                         <span className="ml-2">🐸</span>
                                     </>
                                 )}
@@ -305,7 +305,7 @@ const SignupPage: React.FC<SignupPageProps> = ({ onWalletGenerated }) => {
                                 className="w-full h-14 text-lg rounded-xl bg-emerald-950/50 border-2 border-emerald-500/40 text-emerald-400 font-bold uppercase tracking-wider hover:bg-emerald-900/50 hover:border-emerald-400 hover:text-emerald-300 hover:shadow-[0_4px_20px_rgba(34,197,94,0.2)] transition-all duration-300 flex items-center justify-center"
                             >
                                 <span className="mr-2">🔑</span>
-                                Access Existing Wallet
+                                LOGIN
                             </button>
                         </div>
                     </div>

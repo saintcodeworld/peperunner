@@ -268,10 +268,10 @@ const SignupPage: React.FC<SignupPageProps> = ({ onWalletGenerated }) => {
                         {/* Logo/Brand */}
                         <div className="mb-12">
                             <div className="mb-6 flex justify-center">
-                                <img src={mainLogo} alt="$PEPE" className="w-24 h-24 drop-shadow-[0_0_20px_rgba(34,197,94,0.5)]" />
+                                <img src={mainLogo} alt="$PRUN MADE BY $PFP DEV" className="w-24 h-24 drop-shadow-[0_0_20px_rgba(34,197,94,0.5)]" />
                             </div>
                             <h1 className="text-5xl font-black text-emerald-400 mb-3 tracking-tighter uppercase italic drop-shadow-[0_0_10px_rgba(34,197,94,0.3)]">
-                                $PEPE
+                                $PRUN MADE BY $PFP DEV
                             </h1>
                         </div>
 
